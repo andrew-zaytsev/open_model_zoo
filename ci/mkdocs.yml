@@ -1,0 +1,381 @@
+site_name: OpenVINO Toolkit
+docs_dir: "../"
+nav:
+  - Accuracy Checker Tool:
+    - Accuracy Checker Tool: tools/accuracy_checker/README.md
+    - Adapters: tools/accuracy_checker/accuracy_checker/adapters/README.md
+    - Annotation Converters: tools/accuracy_checker/accuracy_checker/annotation_converters/README.md
+    - Caffe Installation Tips: tools/accuracy_checker/accuracy_checker/launcher/caffe_installation_readme.md
+    - Custom Evaluators for Accuracy Checker: tools/accuracy_checker/accuracy_checker/evaluators/custom_evaluators/README.md
+    - Data Readers: tools/accuracy_checker/accuracy_checker/data_readers/README.md
+    - How to configure Caffe launcher: tools/accuracy_checker/accuracy_checker/launcher/caffe_launcher_readme.md
+    - How to configure MXNet launcher: tools/accuracy_checker/accuracy_checker/launcher/mxnet_launcher_readme.md
+    - How to configure ONNX Runtime launcher: tools/accuracy_checker/accuracy_checker/launcher/onnx_runtime_launcher_readme.md
+    - How to configure OpenCV launcher: tools/accuracy_checker/accuracy_checker/launcher/opencv_launcher_readme.md
+    - How to configure OpenVINO™ launcher: tools/accuracy_checker/accuracy_checker/launcher/dlsdk_launcher_readme.md
+    - How to configure PaddlePaddle launcher: tools/accuracy_checker/accuracy_checker/launcher/pdpd_launcher_readme.md
+    - How to configure PyTorch launcher: tools/accuracy_checker/accuracy_checker/launcher/pytorch_launcher_readme.md
+    - How to configure TensorFlow 2.0 launcher: tools/accuracy_checker/accuracy_checker/launcher/tf2_launcher_readme.md
+    - How to configure TensorFlow Lite launcher: tools/accuracy_checker/accuracy_checker/launcher/tf_lite_launcher_readme.md
+    - How to configure TensorFlow launcher: tools/accuracy_checker/accuracy_checker/launcher/tf_launcher_readme.md
+    - How to use predefined configuration files: tools/accuracy_checker/configs/README.md
+    - Metrics: tools/accuracy_checker/accuracy_checker/metrics/README.md
+    - Postprocessors: tools/accuracy_checker/accuracy_checker/postprocessor/README.md
+    - Preprocessors: tools/accuracy_checker/accuracy_checker/preprocessor/README.md
+    - Sample: tools/accuracy_checker/sample/README.md
+  - Dataset Preparation Guide: data/datasets.md
+  - Model Downloader: tools/downloader/README.md
+  - Trained Models:
+    - Intel's Pre-trained Models:
+      - Intel's Pre-trained Models: models/intel/index.md
+      - Action Recognition Models:
+        - action-recognition-0001 (composite): models/intel/action-recognition-0001/README.md
+        - asl-recognition-0004: models/intel/asl-recognition-0004/README.md
+        - driver-action-recognition-adas-0002 (composite): models/intel/driver-action-recognition-adas-0002/README.md
+        - weld-porosity-detection-0001: models/intel/weld-porosity-detection-0001/README.md
+      - Classification Models:
+        - resnet18-xnor-binary-onnx-0001: models/intel/resnet18-xnor-binary-onnx-0001/README.md
+        - resnet50-binary-0001: models/intel/resnet50-binary-0001/README.md
+      - Head Pose Estimation Models:
+        - head-pose-estimation-adas-0001: models/intel/head-pose-estimation-adas-0001/README.md
+      - Human Pose Estimation Models:
+        - human-pose-estimation-0001: models/intel/human-pose-estimation-0001/README.md
+        - human-pose-estimation-0005: models/intel/human-pose-estimation-0005/README.md
+        - human-pose-estimation-0006: models/intel/human-pose-estimation-0006/README.md
+        - human-pose-estimation-0007: models/intel/human-pose-estimation-0007/README.md
+      - Image Processing Models:
+        - single-image-super-resolution-1032: models/intel/single-image-super-resolution-1032/README.md
+        - single-image-super-resolution-1033: models/intel/single-image-super-resolution-1033/README.md
+        - text-image-super-resolution-0001: models/intel/text-image-super-resolution-0001/README.md
+      - Instance Segmentation Models:
+        - instance-segmentation-security-0002: models/intel/instance-segmentation-security-0002/README.md
+        - instance-segmentation-security-0091: models/intel/instance-segmentation-security-0091/README.md
+        - instance-segmentation-security-0228: models/intel/instance-segmentation-security-0228/README.md
+        - instance-segmentation-security-1039: models/intel/instance-segmentation-security-1039/README.md
+        - instance-segmentation-security-1040: models/intel/instance-segmentation-security-1040/README.md
+      - Machine Translation Models:
+        - machine-translation-nar-de-en-0001: models/intel/machine-translation-nar-de-en-0001/README.md
+        - machine-translation-nar-en-de-0001: models/intel/machine-translation-nar-en-de-0001/README.md
+        - machine-translation-nar-en-ru-0001: models/intel/machine-translation-nar-en-ru-0001/README.md
+        - machine-translation-nar-ru-en-0001: models/intel/machine-translation-nar-ru-en-0001/README.md
+      - Object Attribute Estimation Models:
+        - age-gender-recognition-retail-0013: models/intel/age-gender-recognition-retail-0013/README.md
+        - emotions-recognition-retail-0003: models/intel/emotions-recognition-retail-0003/README.md
+        - facial-landmarks-35-adas-0002: models/intel/facial-landmarks-35-adas-0002/README.md
+        - gaze-estimation-adas-0002: models/intel/gaze-estimation-adas-0002/README.md
+        - image-retrieval-0001: models/intel/image-retrieval-0001/README.md
+        - landmarks-regression-retail-0009: models/intel/landmarks-regression-retail-0009/README.md
+        - person-attributes-recognition-crossroad-0230: models/intel/person-attributes-recognition-crossroad-0230/README.md
+        - person-attributes-recognition-crossroad-0234: models/intel/person-attributes-recognition-crossroad-0234/README.md
+        - person-attributes-recognition-crossroad-0238: models/intel/person-attributes-recognition-crossroad-0238/README.md
+        - person-reidentification-retail-0277: models/intel/person-reidentification-retail-0277/README.md
+        - person-reidentification-retail-0286: models/intel/person-reidentification-retail-0286/README.md
+        - person-reidentification-retail-0287: models/intel/person-reidentification-retail-0287/README.md
+        - person-reidentification-retail-0288: models/intel/person-reidentification-retail-0288/README.md
+        - vehicle-attributes-recognition-barrier-0039: models/intel/vehicle-attributes-recognition-barrier-0039/README.md
+        - vehicle-attributes-recognition-barrier-0042: models/intel/vehicle-attributes-recognition-barrier-0042/README.md
+      - Object Detection Models:
+        - face-detection-0200: models/intel/face-detection-0200/README.md
+        - face-detection-0202: models/intel/face-detection-0202/README.md
+        - face-detection-0204: models/intel/face-detection-0204/README.md
+        - face-detection-0205: models/intel/face-detection-0205/README.md
+        - face-detection-0206: models/intel/face-detection-0206/README.md
+        - face-detection-adas-0001: models/intel/face-detection-adas-0001/README.md
+        - face-detection-retail-0004: models/intel/face-detection-retail-0004/README.md
+        - face-detection-retail-0005: models/intel/face-detection-retail-0005/README.md
+        - faster-rcnn-resnet101-coco-sparse-60-0001: models/intel/faster-rcnn-resnet101-coco-sparse-60-0001/README.md
+        - horizontal-text-detection-0001: models/intel/horizontal-text-detection-0001/README.md
+        - pedestrian-and-vehicle-detector-adas-0001: models/intel/pedestrian-and-vehicle-detector-adas-0001/README.md
+        - pedestrian-detection-adas-0002: models/intel/pedestrian-detection-adas-0002/README.md
+        - person-detection-0106: models/intel/person-detection-0106/README.md
+        - person-detection-0200: models/intel/person-detection-0200/README.md
+        - person-detection-0201: models/intel/person-detection-0201/README.md
+        - person-detection-0202: models/intel/person-detection-0202/README.md
+        - person-detection-0203: models/intel/person-detection-0203/README.md
+        - person-detection-action-recognition-0005: models/intel/person-detection-action-recognition-0005/README.md
+        - person-detection-action-recognition-0006: models/intel/person-detection-action-recognition-0006/README.md
+        - person-detection-action-recognition-teacher-0002: models/intel/person-detection-action-recognition-teacher-0002/README.md
+        - person-detection-asl-0001: models/intel/person-detection-asl-0001/README.md
+        - person-detection-raisinghand-recognition-0001: models/intel/person-detection-raisinghand-recognition-0001/README.md
+        - person-detection-retail-0002: models/intel/person-detection-retail-0002/README.md
+        - person-detection-retail-0013: models/intel/person-detection-retail-0013/README.md
+        - person-vehicle-bike-detection-2000: models/intel/person-vehicle-bike-detection-2000/README.md
+        - person-vehicle-bike-detection-2001: models/intel/person-vehicle-bike-detection-2001/README.md
+        - person-vehicle-bike-detection-2002: models/intel/person-vehicle-bike-detection-2002/README.md
+        - person-vehicle-bike-detection-2003: models/intel/person-vehicle-bike-detection-2003/README.md
+        - person-vehicle-bike-detection-2004: models/intel/person-vehicle-bike-detection-2004/README.md
+        - person-vehicle-bike-detection-crossroad-0078: models/intel/person-vehicle-bike-detection-crossroad-0078/README.md
+        - person-vehicle-bike-detection-crossroad-1016: models/intel/person-vehicle-bike-detection-crossroad-1016/README.md
+        - person-vehicle-bike-detection-crossroad-yolov3-1020: models/intel/person-vehicle-bike-detection-crossroad-yolov3-1020/README.md
+        - product-detection-0001: models/intel/product-detection-0001/README.md
+        - text-detection-0003: models/intel/text-detection-0003/README.md
+        - text-detection-0004: models/intel/text-detection-0004/README.md
+        - vehicle-detection-0200: models/intel/vehicle-detection-0200/README.md
+        - vehicle-detection-0201: models/intel/vehicle-detection-0201/README.md
+        - vehicle-detection-0202: models/intel/vehicle-detection-0202/README.md
+        - vehicle-detection-adas-0002: models/intel/vehicle-detection-adas-0002/README.md
+        - vehicle-license-plate-detection-barrier-0106: models/intel/vehicle-license-plate-detection-barrier-0106/README.md
+        - yolo-v2-ava-0001: models/intel/yolo-v2-ava-0001/README.md
+        - yolo-v2-ava-sparse-35-0001: models/intel/yolo-v2-ava-sparse-35-0001/README.md
+        - yolo-v2-ava-sparse-70-0001: models/intel/yolo-v2-ava-sparse-70-0001/README.md
+        - yolo-v2-tiny-ava-0001: models/intel/yolo-v2-tiny-ava-0001/README.md
+        - yolo-v2-tiny-ava-sparse-30-0001: models/intel/yolo-v2-tiny-ava-sparse-30-0001/README.md
+        - yolo-v2-tiny-ava-sparse-60-0001: models/intel/yolo-v2-tiny-ava-sparse-60-0001/README.md
+        - yolo-v2-tiny-vehicle-detection-0001: models/intel/yolo-v2-tiny-vehicle-detection-0001/README.md
+      - Optical Character Recognition Models:
+        - handwritten-japanese-recognition-0001: models/intel/handwritten-japanese-recognition-0001/README.md
+        - handwritten-score-recognition-0003: models/intel/handwritten-score-recognition-0003/README.md
+        - handwritten-simplified-chinese-recognition-0001: models/intel/handwritten-simplified-chinese-recognition-0001/README.md
+        - license-plate-recognition-barrier-0001: models/intel/license-plate-recognition-barrier-0001/README.md
+        - text-recognition-0012: models/intel/text-recognition-0012/README.md
+        - text-recognition-0013: models/intel/text-recognition-0013/README.md
+        - text-spotting-0004 (composite): models/intel/text-spotting-0004/README.md
+      - Question Answering Models:
+        - bert-large-uncased-whole-word-masking-squad-0001: models/intel/bert-large-uncased-whole-word-masking-squad-0001/README.md
+        - bert-large-uncased-whole-word-masking-squad-emb-0001: models/intel/bert-large-uncased-whole-word-masking-squad-emb-0001/README.md
+        - bert-large-uncased-whole-word-masking-squad-int8-0001: models/intel/bert-large-uncased-whole-word-masking-squad-int8-0001/README.md
+        - bert-small-uncased-whole-word-masking-squad-0001: models/intel/bert-small-uncased-whole-word-masking-squad-0001/README.md
+        - bert-small-uncased-whole-word-masking-squad-0002: models/intel/bert-small-uncased-whole-word-masking-squad-0002/README.md
+        - bert-small-uncased-whole-word-masking-squad-emb-int8-0001: models/intel/bert-small-uncased-whole-word-masking-squad-emb-int8-0001/README.md
+        - bert-small-uncased-whole-word-masking-squad-int8-0002: models/intel/bert-small-uncased-whole-word-masking-squad-int8-0002/README.md
+      - Semantic Segmentation Models:
+        - icnet-camvid-ava-0001: models/intel/icnet-camvid-ava-0001/README.md
+        - icnet-camvid-ava-sparse-30-0001: models/intel/icnet-camvid-ava-sparse-30-0001/README.md
+        - icnet-camvid-ava-sparse-60-0001: models/intel/icnet-camvid-ava-sparse-60-0001/README.md
+        - road-segmentation-adas-0001: models/intel/road-segmentation-adas-0001/README.md
+        - semantic-segmentation-adas-0001: models/intel/semantic-segmentation-adas-0001/README.md
+        - unet-camvid-onnx-0001: models/intel/unet-camvid-onnx-0001/README.md
+      - Text-to-speech Models:
+        - text-to-speech-en-0001 (composite): models/intel/text-to-speech-en-0001/README.md
+      - Token Recognition Models:
+        - formula-recognition-medium-scan-0001 (composite): models/intel/formula-recognition-medium-scan-0001/README.md
+        - formula-recognition-polynomials-handwritten-0001 (composite): models/intel/formula-recognition-polynomials-handwritten-0001/README.md
+    - Public Pre-trained Models:
+      - Public Pre-trained Models: models/public/index.md
+      - Action Recognition Models:
+        - common-sign-language-0001: models/public/common-sign-language-0001/README.md
+        - i3d-rgb-tf: models/public/i3d-rgb-tf/README.md
+      - Classification Models:
+        - alexnet: models/public/alexnet/README.md
+        - anti-spoof-mn3: models/public/anti-spoof-mn3/README.md
+        - caffenet: models/public/caffenet/README.md
+        - densenet-121: models/public/densenet-121/README.md
+        - densenet-121-caffe2: models/public/densenet-121-caffe2/README.md
+        - densenet-121-tf: models/public/densenet-121-tf/README.md
+        - densenet-161: models/public/densenet-161/README.md
+        - densenet-161-tf: models/public/densenet-161-tf/README.md
+        - densenet-169: models/public/densenet-169/README.md
+        - densenet-169-tf: models/public/densenet-169-tf/README.md
+        - densenet-201: models/public/densenet-201/README.md
+        - densenet-201-tf: models/public/densenet-201-tf/README.md
+        - dla-34: models/public/dla-34/README.md
+        - efficientnet-b0: models/public/efficientnet-b0/README.md
+        - efficientnet-b0-pytorch: models/public/efficientnet-b0-pytorch/README.md
+        - efficientnet-b0_auto_aug: models/public/efficientnet-b0_auto_aug/README.md
+        - efficientnet-b5: models/public/efficientnet-b5/README.md
+        - efficientnet-b5-pytorch: models/public/efficientnet-b5-pytorch/README.md
+        - efficientnet-b7-pytorch: models/public/efficientnet-b7-pytorch/README.md
+        - efficientnet-b7_auto_aug: models/public/efficientnet-b7_auto_aug/README.md
+        - googlenet-v1: models/public/googlenet-v1/README.md
+        - googlenet-v1-tf: models/public/googlenet-v1-tf/README.md
+        - googlenet-v2: models/public/googlenet-v2/README.md
+        - googlenet-v2-tf: models/public/googlenet-v2-tf/README.md
+        - googlenet-v3: models/public/googlenet-v3/README.md
+        - googlenet-v3-pytorch: models/public/googlenet-v3-pytorch/README.md
+        - googlenet-v4-tf: models/public/googlenet-v4-tf/README.md
+        - hbonet-0.25: models/public/hbonet-0.25/README.md
+        - hbonet-0.5: models/public/hbonet-0.5/README.md
+        - hbonet-1.0: models/public/hbonet-1.0/README.md
+        - inception-resnet-v2-tf: models/public/inception-resnet-v2-tf/README.md
+        - mobilenet-v1-0.25-128: models/public/mobilenet-v1-0.25-128/README.md
+        - mobilenet-v1-0.50-160: models/public/mobilenet-v1-0.50-160/README.md
+        - mobilenet-v1-0.50-224: models/public/mobilenet-v1-0.50-224/README.md
+        - mobilenet-v1-1.0-224: models/public/mobilenet-v1-1.0-224/README.md
+        - mobilenet-v1-1.0-224-tf: models/public/mobilenet-v1-1.0-224-tf/README.md
+        - mobilenet-v2: models/public/mobilenet-v2/README.md
+        - mobilenet-v2-1.0-224: models/public/mobilenet-v2-1.0-224/README.md
+        - mobilenet-v2-1.4-224: models/public/mobilenet-v2-1.4-224/README.md
+        - mobilenet-v2-pytorch: models/public/mobilenet-v2-pytorch/README.md
+        - mobilenet-v3-large-1.0-224-tf: models/public/mobilenet-v3-large-1.0-224-tf/README.md
+        - mobilenet-v3-small-1.0-224-tf: models/public/mobilenet-v3-small-1.0-224-tf/README.md
+        - nfnet-f0: models/public/nfnet-f0/README.md
+        - octave-densenet-121-0.125: models/public/octave-densenet-121-0.125/README.md
+        - octave-resnet-101-0.125: models/public/octave-resnet-101-0.125/README.md
+        - octave-resnet-200-0.125: models/public/octave-resnet-200-0.125/README.md
+        - octave-resnet-26-0.25: models/public/octave-resnet-26-0.25/README.md
+        - octave-resnet-50-0.125: models/public/octave-resnet-50-0.125/README.md
+        - octave-resnext-101-0.25: models/public/octave-resnext-101-0.25/README.md
+        - octave-resnext-50-0.25: models/public/octave-resnext-50-0.25/README.md
+        - octave-se-resnet-50-0.125: models/public/octave-se-resnet-50-0.125/README.md
+        - open-closed-eye-0001: models/public/open-closed-eye-0001/README.md
+        - regnetx-3.2gf: models/public/regnetx-3.2gf/README.md
+        - repvgg-a0: models/public/repvgg-a0/README.md
+        - repvgg-b1: models/public/repvgg-b1/README.md
+        - repvgg-b3: models/public/repvgg-b3/README.md
+        - resnest-50-pytorch: models/public/resnest-50-pytorch/README.md
+        - resnet-18-pytorch: models/public/resnet-18-pytorch/README.md
+        - resnet-34-pytorch: models/public/resnet-34-pytorch/README.md
+        - resnet-50-caffe2: models/public/resnet-50-caffe2/README.md
+        - resnet-50-pytorch: models/public/resnet-50-pytorch/README.md
+        - resnet-50-tf: models/public/resnet-50-tf/README.md
+        - rexnet-v1-x1.0: models/public/rexnet-v1-x1.0/README.md
+        - se-inception: models/public/se-inception/README.md
+        - se-resnet-101: models/public/se-resnet-101/README.md
+        - se-resnet-152: models/public/se-resnet-152/README.md
+        - se-resnet-50: models/public/se-resnet-50/README.md
+        - se-resnext-101: models/public/se-resnext-101/README.md
+        - se-resnext-50: models/public/se-resnext-50/README.md
+        - shufflenet-v2-x1.0: models/public/shufflenet-v2-x1.0/README.md
+        - squeezenet1.0: models/public/squeezenet1.0/README.md
+        - squeezenet1.1: models/public/squeezenet1.1/README.md
+        - squeezenet1.1-caffe2: models/public/squeezenet1.1-caffe2/README.md
+        - vgg16: models/public/vgg16/README.md
+        - vgg19: models/public/vgg19/README.md
+        - vgg19-caffe2: models/public/vgg19-caffe2/README.md
+      - Colorization Models:
+        - colorization-siggraph: models/public/colorization-siggraph/README.md
+        - colorization-v2: models/public/colorization-v2/README.md
+      - Face Recognition Models:
+        - face-recognition-mobilefacenet-arcface: models/public/face-recognition-mobilefacenet-arcface/README.md
+        - face-recognition-resnet100-arcface: models/public/face-recognition-resnet100-arcface/README.md
+        - face-recognition-resnet34-arcface: models/public/face-recognition-resnet34-arcface/README.md
+        - face-recognition-resnet50-arcface: models/public/face-recognition-resnet50-arcface/README.md
+        - facenet-20180408-102900: models/public/facenet-20180408-102900/README.md
+        - Sphereface: models/public/Sphereface/README.md
+      - Human Pose Estimation Models:
+        - higher-hrnet-w32-human-pose-estimation: models/public/higher-hrnet-w32-human-pose-estimation/README.md
+        - human-pose-estimation-3d-0001: models/public/human-pose-estimation-3d-0001/README.md
+        - single-human-pose-estimation-0001: models/public/single-human-pose-estimation-0001/README.md
+      - Image Inpainting Models:
+        - gmcnn-places2-tf: models/public/gmcnn-places2-tf/README.md
+      - Image Processing Models:
+        - deblurgan-v2: models/public/deblurgan-v2/README.md
+      - Image Translation Models:
+        - cocosnet: models/public/cocosnet/README.md
+      - Instance Segmentation Models:
+        - mask_rcnn_inception_resnet_v2_atrous_coco: models/public/mask_rcnn_inception_resnet_v2_atrous_coco/README.md
+        - mask_rcnn_inception_v2_coco: models/public/mask_rcnn_inception_v2_coco/README.md
+        - mask_rcnn_resnet101_atrous_coco: models/public/mask_rcnn_resnet101_atrous_coco/README.md
+        - mask_rcnn_resnet50_atrous_coco: models/public/mask_rcnn_resnet50_atrous_coco/README.md
+        - yolact-resnet50-fpn-pytorch: models/public/yolact-resnet50-fpn-pytorch/README.md
+      - Monocular Depth Estimation Models:
+        - fcrn-dp-nyu-depth-v2-tf: models/public/fcrn-dp-nyu-depth-v2-tf/README.md
+        - midasnet: models/public/midasnet/README.md
+      - Named Entity Recognition Models:
+        - bert-base-ner: models/public/bert-base-ner/README.md
+      - Object Attribute Estimation Models:
+        - vehicle-reid-0001: models/public/vehicle-reid-0001/README.md
+      - Object Detection Models:
+        - ctdet_coco_dlav0_384: models/public/ctdet_coco_dlav0_384/README.md
+        - ctdet_coco_dlav0_512: models/public/ctdet_coco_dlav0_512/README.md
+        - ctpn: models/public/ctpn/README.md
+        - efficientdet-d0-tf: models/public/efficientdet-d0-tf/README.md
+        - efficientdet-d1-tf: models/public/efficientdet-d1-tf/README.md
+        - face-detection-retail-0044: models/public/face-detection-retail-0044/README.md
+        - faceboxes-pytorch: models/public/faceboxes-pytorch/README.md
+        - faster_rcnn_inception_resnet_v2_atrous_coco: models/public/faster_rcnn_inception_resnet_v2_atrous_coco/README.md
+        - faster_rcnn_inception_v2_coco: models/public/faster_rcnn_inception_v2_coco/README.md
+        - faster_rcnn_resnet101_coco: models/public/faster_rcnn_resnet101_coco/README.md
+        - faster_rcnn_resnet50_coco: models/public/faster_rcnn_resnet50_coco/README.md
+        - mobilefacedet-v1-mxnet: models/public/mobilefacedet-v1-mxnet/README.md
+        - mobilenet-ssd: models/public/mobilenet-ssd/README.md
+        - mtcnn (composite): models/public/mtcnn/README.md
+        - pelee-coco: models/public/pelee-coco/README.md
+        - retinaface-anti-cov: models/public/retinaface-anti-cov/README.md
+        - retinaface-resnet50: models/public/retinaface-resnet50/README.md
+        - retinanet-tf: models/public/retinanet-tf/README.md
+        - rfcn-resnet101-coco-tf: models/public/rfcn-resnet101-coco-tf/README.md
+        - ssd-resnet34-1200-onnx: models/public/ssd-resnet34-1200-onnx/README.md
+        - ssd300: models/public/ssd300/README.md
+        - ssd512: models/public/ssd512/README.md
+        - ssd_mobilenet_v1_coco: models/public/ssd_mobilenet_v1_coco/README.md
+        - ssd_mobilenet_v1_fpn_coco: models/public/ssd_mobilenet_v1_fpn_coco/README.md
+        - ssd_mobilenet_v2_coco: models/public/ssd_mobilenet_v2_coco/README.md
+        - ssd_resnet50_v1_fpn_coco: models/public/ssd_resnet50_v1_fpn_coco/README.md
+        - ssdlite_mobilenet_v2: models/public/ssdlite_mobilenet_v2/README.md
+        - ssh-mxnet: models/public/ssh-mxnet/README.md
+        - ultra-lightweight-face-detection-rfb-320: models/public/ultra-lightweight-face-detection-rfb-320/README.md
+        - ultra-lightweight-face-detection-slim-320: models/public/ultra-lightweight-face-detection-slim-320/README.md
+        - vehicle-license-plate-detection-barrier-0123: models/public/vehicle-license-plate-detection-barrier-0123/README.md
+        - yolo-v1-tiny-tf: models/public/yolo-v1-tiny-tf/README.md
+        - yolo-v2-tf: models/public/yolo-v2-tf/README.md
+        - yolo-v2-tiny-tf: models/public/yolo-v2-tiny-tf/README.md
+        - yolo-v3-tf: models/public/yolo-v3-tf/README.md
+        - yolo-v3-tiny-tf: models/public/yolo-v3-tiny-tf/README.md
+        - yolo-v4-tf: models/public/yolo-v4-tf/README.md
+        - yolo-v4-tiny-tf: models/public/yolo-v4-tiny-tf/README.md
+      - Optical Character Recognition Models:
+        - license-plate-recognition-barrier-0007: models/public/license-plate-recognition-barrier-0007/README.md
+        - text-recognition-resnet-fc: models/public/text-recognition-resnet-fc/README.md
+      - Place Recognition Models:
+        - netvlad-tf: models/public/netvlad-tf/README.md
+      - Salient Object Detection Models:
+        - f3net: models/public/f3net/README.md
+      - Semantic Segmentation Models:
+        - brain-tumor-segmentation-0001: models/public/brain-tumor-segmentation-0001/README.md
+        - brain-tumor-segmentation-0002: models/public/brain-tumor-segmentation-0002/README.md
+        - deeplabv3: models/public/deeplabv3/README.md
+        - fastseg-large: models/public/fastseg-large/README.md
+        - fastseg-small: models/public/fastseg-small/README.md
+        - hrnet-v2-c1-segmentation: models/public/hrnet-v2-c1-segmentation/README.md
+      - Sound Classification Models:
+        - aclnet: models/public/aclnet/README.md
+        - aclnet-int8: models/public/aclnet-int8/README.md
+      - Speech Recognition Models:
+        - mozilla-deepspeech-0.6.1: models/public/mozilla-deepspeech-0.6.1/README.md
+        - mozilla-deepspeech-0.8.2: models/public/mozilla-deepspeech-0.8.2/README.md
+        - quartznet-15x5-en: models/public/quartznet-15x5-en/README.md
+      - Style Transfer Models:
+        - fast-neural-style-mosaic-onnx: models/public/fast-neural-style-mosaic-onnx/README.md
+      - Text-to-speech Models:
+        - forward-tacotron (composite): models/public/forward-tacotron/README.md
+        - wavernn (composite): models/public/wavernn/README.md
+  - Demos:
+    - Demos: demos/README.md
+    - 3D Human Pose Estimation Python* Demo: demos/human_pose_estimation_3d_demo/python/README.md
+    - 3D Segmentation Python* Demo: demos/3d_segmentation_demo/python/README.md
+    - Action Recognition Python* Demo: demos/action_recognition_demo/python/README.md
+    - BERT Named Entity Recognition Python* Demo: demos/bert_named_entity_recognition_demo/python/README.md
+    - BERT Question Answering Embedding Python* Demo: demos/bert_question_answering_embedding_demo/python/README.md
+    - BERT Question Answering Python* Demo: demos/bert_question_answering_demo/python/README.md
+    - Classification C++ Demo: demos/classification_demo/cpp/README.md
+    - Colorization Demo: demos/colorization_demo/python/README.md
+    - Crossroad Camera C++ Demo: demos/crossroad_camera_demo/cpp/README.md
+    - Face Detection MTCNN Python* Demo: demos/face_detection_mtcnn_demo/python/README.md
+    - Formula Recognition Python* Demo: demos/formula_recognition_demo/python/README.md
+    - G-API Interactive Face Detection Demo: demos/interactive_face_detection_demo/cpp_gapi/README.md
+    - Gaze Estimation Demo: demos/gaze_estimation_demo/cpp/README.md
+    - Gesture Recognition Python* Demo: demos/gesture_recognition_demo/python/README.md
+    - Handwritten Text Recognition Demo: demos/handwritten_text_recognition_demo/python/README.md
+    - Human Pose Estimation C++ Demo: demos/human_pose_estimation_demo/cpp/README.md
+    - Human Pose Estimation Python* Demo: demos/human_pose_estimation_demo/python/README.md
+    - Image Deblurring Python* Demo: demos/deblurring_demo/python/README.md
+    - Image Inpainting Python Demo: demos/image_inpainting_demo/python/README.md
+    - Image Retrieval Python* Demo: demos/image_retrieval_demo/python/README.md
+    - Image Segmentation C++ Demo: demos/segmentation_demo/cpp/README.md
+    - Image Segmentation Python* Demo: demos/segmentation_demo/python/README.md
+    - Image Translation Demo: demos/image_translation_demo/python/README.md
+    - Instance Segmentation Python* Demo: demos/instance_segmentation_demo/python/README.md
+    - Interactive Face Detection C++ Demo: demos/interactive_face_detection_demo/cpp/README.md
+    - Machine Translation Python* Demo: demos/machine_translation_demo/python/README.md
+    - MonoDepth Python Demo: demos/monodepth_demo/python/README.md
+    - Multi Camera Multi Target Python* Demo: demos/multi_camera_multi_target_tracking_demo/python/README.md
+    - Multi-Channel Face Detection C++ Demo: demos/multi_channel_face_detection_demo/cpp/README.md
+    - Multi-Channel Human Pose Estimation C++ Demo: demos/multi_channel_human_pose_estimation_demo/cpp/README.md
+    - Multi-Channel Object Detection Yolov3 C++ Demo: demos/multi_channel_object_detection_demo_yolov3/cpp/README.md
+    - Object Detection C++ Demo: demos/object_detection_demo/cpp/README.md
+    - Object Detection Python* Demo: demos/object_detection_demo/python/README.md
+    - Pedestrian Tracker C++ Demo: demos/pedestrian_tracker_demo/cpp/README.md
+    - Place Recognition Python* Demo: demos/place_recognition_demo/python/README.md
+    - Security Barrier Camera C++ Demo: demos/security_barrier_camera_demo/cpp/README.md
+    - Single Human Pose Estimation Demo (top-down pipeline): demos/single_human_pose_estimation_demo/python/README.md
+    - Smart Classroom C++ Demo: demos/smart_classroom_demo/cpp/README.md
+    - Sound Classification Python* Demo: demos/sound_classification_demo/python/README.md
+    - Speech Recognition Demo: demos/speech_recognition_demo/python/README.md
+    - Super Resolution C++ Demo: demos/super_resolution_demo/cpp/README.md
+    - TensorFlow* Object Detection Mask R-CNNs Segmentation C++ Demo: demos/mask_rcnn_demo/cpp/README.md
+    - Text Detection C++ Demo: demos/text_detection_demo/cpp/README.md
+    - Text Spotting Python* Demo: demos/text_spotting_demo/python/README.md
+    - Text-to-speech Python* Demo: demos/text_to_speech_demo/python/README.md
+    - Whiteboard Inpainting Demo: demos/whiteboard_inpainting_demo/python/README.md
+theme: readthedocs
