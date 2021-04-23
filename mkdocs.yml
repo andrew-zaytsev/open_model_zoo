@@ -1,5 +1,4 @@
 site_name: OpenVINO Toolkit
-docs_dir: "../"
 nav:
   - Accuracy Checker Tool:
     - Accuracy Checker Tool: tools/accuracy_checker/README.md
